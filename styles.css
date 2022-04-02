@@ -1,0 +1,78 @@
+body {
+    background-color: #FFA200;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #ffff;
+    box-shadow: 5px 5px 20px #570800;
+    border-radius: 20px;
+}
+
+.title {
+    background-color:#570800;
+    color: aliceblue;
+    text-align: center;
+    font-size: 21px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus {
+    border: 3px solid #FFA200;
+    outline: none;
+}
+
+.formSelect {
+    width: 180px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.formSubmit {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: #FFA200;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.credits {
+    background-color: #570800;
+    color: #fff;
+    text-align: center;
+    font-size: bold;
+    margin-top: 205px;
+    padding: 3px;
+    height: 20px;
+}
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
